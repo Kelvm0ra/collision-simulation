@@ -38,14 +38,14 @@ Code dari algoritma QuadTree:
 - Pantulan bola terhadap batas window
 - Perbandingan dua metode deteksi tabrakan
 
-### INFORMASI YANG DITAMPILKAN
+### Informasi yang Ditampilkan
 - Mode algoritma yang digunakan
 - Jumlah bola dalam simulasi
 - Jumlah tabrakan yang terdeteksi
 - Waktu eksekusi algoritma
 - Frames per detik
 
-### KONTROL PROGRAM
+### Kontrol Program
 | Input | Fungsi |
 |------|-------|
 | Tombol C Keyboard | Mengganti mode Brute Force / QuadTree |
@@ -55,7 +55,7 @@ Code dari algoritma QuadTree:
 
 ---
 
-## TUJUAN PEMBELAJARAN
+## Tujuan Pembelajaran
 - Memahami konsep collision detection
 - Membandingkan kompleksitas algoritma Brute Force dan QuadTree
 - Menerapkan struktur data QuadTree pada simulasi grafis
