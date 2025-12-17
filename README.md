@@ -11,9 +11,58 @@ Hasilnya ditampilkan langsung di layar, menunjukkan berapa kali pengecekan dilak
 
 ## Algoritma
 ### 1. Brute Force
-- Big O Notation: O(n²)
+- Kompleksitas: O(n²)
 - Cara Kerja: Memeriksa setiap pasangan bola
 - Keunggulan: Sederhana dan mudah dipahami
 - Kelemahan: Lambat untuk jumlah objek besar
 
 Code dari algoritma Brute Force:
+![BRUTE FORCE](images/BruteForceAlgoCode.png)
+
+### 2. QuadTree
+- Kompleksitas: O(n $log$ n)
+- Cara Kerja: Partisi ruang hierarkis untuk optimasi pencarian
+- Keunggulan: Sangat efisien untuk banyak objek
+- Kelemahan: Overhead memori dan implementasi kompleks
+
+Code dari algoritma QuadTree:
+![QUADTREE](images/QuadTreeAlgoCode1.png)
+![QUADTREE](images/QuadTreeAlgoCode2.png)
+
+---
+
+## Fitur Program
+### Fitur Utama
+- Simulasi bola 2D
+- Deteksi tabrakan antar bola
+- Pantulan bola terhadap batas window
+- Perbandingan dua metode deteksi tabrakan
+
+### INFORMASI YANG DITAMPILKAN
+- Mode algoritma yang digunakan
+- Jumlah bola dalam simulasi
+- Jumlah tabrakan yang terdeteksi
+- Waktu eksekusi algoritma
+- Frames per detik
+
+### KONTROL PROGRAM
+| Input | Fungsi |
+|------|-------|
+| Tombol C Keyboard | Mengganti mode Brute Force / QuadTree |
+| Panah Atas | Menambahkan 10 bola baru |
+| Panah Bawah | Mengurangi 10 bola |
+| Tutup window | Mengakhiri program |
+
+---
+
+## TUJUAN PEMBELAJARAN
+- Memahami konsep collision detection
+- Membandingkan kompleksitas algoritma Brute Force dan QuadTree
+- Menerapkan struktur data QuadTree pada simulasi grafis
+- Mengamati pengaruh optimasi algoritma terhadap performa program
+
+---
+
+## Tampilan Output Code
+
+https://github.com/user-attachments/assets/c9368755-e7b3-47ee-90bf-110c46bd0cca
